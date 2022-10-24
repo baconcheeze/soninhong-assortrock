@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\PCH">
+      <UniqueIdentifier>{451a2ee1-829a-488a-b450-7dc24f2c4b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine">
+      <UniqueIdentifier>{7c3c4735-b3db-40ab-9dae-51d168313d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Application">
+      <UniqueIdentifier>{811f0acc-8508-4516-98a6-4c8f280f4b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\SceneMgr">
+      <UniqueIdentifier>{964f6410-512b-4720-ba01-bd8ba0ebf555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Scene">
+      <UniqueIdentifier>{162f0ca8-f342-4bdb-b036-f778515898fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Scene\PlayScene">
+      <UniqueIdentifier>{2bb4cd97-cacc-47b6-9431-77562e253379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\GameObj">
+      <UniqueIdentifier>{1634b53a-3287-4318-b6ea-1f61cb83c352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\GameObj\Satellite">
+      <UniqueIdentifier>{c2313e46-d62a-47a7-aa4a-ec7e04f3921b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\TimeMgr">
+      <UniqueIdentifier>{6c0a41dc-e469-4aff-9294-c5eeb8107ced}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>소스 파일\Engine\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>소스 파일\Engine\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>소스 파일\Engine\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>소스 파일\Engine\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SatelliteObj.h">
+      <Filter>소스 파일\Engine\GameObj\Satellite</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>소스 파일\Engine\TimeMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Satellite.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>헤더 파일\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>소스 파일\Engine\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>소스 파일\Engine\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>소스 파일\Engine\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>소스 파일\Engine\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SatelliteObj.cpp">
+      <Filter>소스 파일\Engine\GameObj\Satellite</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>소스 파일\Engine\TimeMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Satellite.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Satellite.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
